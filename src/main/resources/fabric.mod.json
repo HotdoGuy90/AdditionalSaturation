@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "additional_saturation",
+	"version": "${version}",
+	"name": "Additional Saturation",
+	"description": "Adds Overflow Hunger to Minecraft!",
+	"authors": [
+		"HotdoGuy90"
+	],
+	"contact": {
+		"homepage": "https://github.com/HotdoGuy90",
+		"sources": "https://github.com/HotdoGuy90/AdditionalSaturation"
+	},
+	"license": "MIT",
+	"icon": "assets/additional_saturation/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.hotdoguy90.additionalsaturation.AdditionalSaturation"
+		]
+	},
+	"mixins": [
+		"additional_saturation.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"mealapi": ">=0.3.2"
+	}
+}
