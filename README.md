@@ -18,6 +18,10 @@ Since being on the Fabric loader it requires the [Fabric API](https://modrinth.c
 
 You can download it on [Github](https://github.com/HotdoGuy90/AdditionalSaturation) or [Modrinth](https://modrinth.com/mod/additional-saturation)
 
+## Suggestions and Bugs
+
+If you find a bug or have a suggestion for something I should add to this mod, use the [Github Issues Tab](https://github.com/HotdoGuy90/AdditionalSaturation/issues)
+
 ## For Developers
 
 If you have a mod or you installed a mod and want to make it compatible with this mod, all you need to do is add the following file and directory to your mod/datapack:
